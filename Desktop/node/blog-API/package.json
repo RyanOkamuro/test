@@ -2,10 +2,9 @@
   "name": "blog-api",
   "version": "1.0.0",
   "description": "Blog API",
-  "main": "server.js",
+  "main": "models.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
