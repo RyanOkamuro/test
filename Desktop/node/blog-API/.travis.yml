@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: CFcpYuqxXq24x2uj5cE2gLnm0xsuTfwYg3MOLZtpwzXDYK/uI0zd9ek55T1v/XtJx9ihw8Pu8obv1wXOekNnjFB6BMGdnE0uuaWGXGYG6zvuvxhAcg7qZPmP/Kqsw8rSiVv4kXTul2Zc5FVSTL1wix8EQl8zfDzYUvYsQugd8plyVs69d7hcHEpthBAWEo0OPvtQ8B41XC37DFg16VnpSfg2uYHuWtSo7E677xwqpsS4pJVAbEIcxcFjqlxLOMHN0/xmBd0TkG/L2ere+rKtA7NLOW9T5xGisAjbm1nbBlcAhsDsxj/bIM/37UAXytrOugceLu3Ak10c7XU3/Q1iek06xbLrNyK+RxfYmLWdmqVkiDyJ/Q2rfbs3fpoUy0ib5wpwyTbzFmjC2MyGottDElTv6KAUTIXqLdZnvHHlDjgTu2E8gUDHwJwYorpY8fYZhZ7i7ncW+v0ILMiIPJS1C5Jib32/EUfXHvcXcJo+2mrVNZ+PAF6Bkg9iVnFOQ5LOnOWC3bPpRFj+oj4Sp1vD7w1PDyz5SvovqI/cAUIsyJSH2Y3cki4MajzhMT1wFekfsJLid/n9n3xD0DB/xa/+9mO8s03ZwoRoCBRfWIeEH6/Z4/jPIfGcYJHtpsQhvnLx0UKVTwdlY4hGYgizQpYaqtfxpm3O5N3UwxpuePSHd78=
+  app: https://git.heroku.com/peaceful-inlet-30395.git
+  on:
+    repo: RyanOkamuro/blog-api
