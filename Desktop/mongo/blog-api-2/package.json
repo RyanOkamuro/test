@@ -1,0 +1,29 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Blogging API",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanOkamuro/blog-api-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanOkamuro/blog-api-mongoose/issues"
+  },
+  "homepage": "https://github.com/RyanOkamuro/blog-api-mongoose#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  },
+  "keywords": [
+    "blog-api"
+  ]
+}
