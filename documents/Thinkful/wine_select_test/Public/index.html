@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="icon" type="image/png" href="https://freeiconshop.com/wp-content/uploads/edd/wine-glass-outline-filled.png">
+	<title>Wine Select</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header role="banner" class="heading">
+        <h1>Wine Select</h1>
+        <h2>Find the perfect bottle of wine based on community reviews.</h2>
+    </header>
+    <form role="form" class="login-form">
+        <fieldset name="login">
+            <legend>Wine Select Login</legend>
+            <label for="js-user-name" class="user">User Name</label>
+            <input placeholder="Your User Name" type="text" name="js-user-name" id="js-user-name" required/>
+            <label for="js-user-password" class="password">Password</label>
+            <input placeholder="Enter Password" type="password" name="js-user-password" id="js-user-password" required/>
+            <button role="button" type="submit" class="js-submit-button">Login</button>
+            <footer role="contentinfo" class="footer">
+                <p>Create a new user account <a href="/login">New User</a></p>
+        </fieldset>
+    </form>
+    </footer>
+    <main role="main">
+        <section role="region" id="red-white" aria-live="assertive" hidden></section>
+        <section role="region" id="wineList" aria-live="assertive" hidden></section>
+        <section role="region" id="wineDetails" aria-live="assertive" hidden></section>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

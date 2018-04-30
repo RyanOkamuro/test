@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  }
+
+  html, body {
+    color: #1B0404;
+    background-color: #FEFEFE;
+  }
+
+  .heading {
+      color: #7F1A1A;
+      margin: 10px auto;
+      text-align: center;
+  }
+
+  h1 {
+      margin-top: 40px;
+  }
+
+  h2 {
+      color: #1B0404;
+      font-size: 22px;
+  }
+
+  fieldset {
+      padding: 0;
+      border: 0;
+      margin: 0;
+  }
+
+  .login-form, .newBottle-form {
+      width: 400px;
+      padding: 40px;
+      border-radius: 4px;
+      margin: 0 auto;
+      border: 1px solid black;
+  }
+
+  .login-form legend, .newBottle-form legend {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto 50px;
+  }
+
+  .login-form label, .newBottle-form label {
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+
+  .login-form input, .login-form button, .newBottle-form input, .newBottle-form button {
+      width: 100%;
+      padding: 6px;
+      border-radius: 3px;
+      margin-bottom: 3px;
+  }
+
+  .footer {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .wineBrand-form {
+      width: 400px;
+      padding: 40px;
+      border-radius: 4px;
+      margin: 0 auto;
+  }
+
+  .wineBrand-form legend {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto 20px;
+  }
+
+  .wineBrand-form label {
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+
+  .wineBrand-form input, .wineBrand-form button {
+      padding: 6px;
+      border-radius: 3px;
+      margin-bottom: 3px;
+  }
+
+  .wineRedWhiteImages {
+      text-align: center;
+  }
+
+  .red, .white {
+      height: 300px;
+      width: 80px;
+  }
+
+  .redWine, .whiteWine {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 150px;
+      width: 50px;
+  }
+
+  #labelInformation {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+  }
+
+  .vino {
+      margin-bottom: 30px;
+  }
+
+  #labelInformation, #singleLabel {
+      list-style-type: none;
+  }
+
+  .oneWine {
+      text-align: center;
+  }
+
+  .singleRedWineImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 250px;
+      width: 80px;
+  }
+
+  #singleLabel {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      text-align: left;
+  }
+
+  #labelInformation > li {
+      position: relative;
+      min-height: 150px;
+  }
+
+  .history-winerylink {
+      display: block;
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+
+
+  
+
+
+
