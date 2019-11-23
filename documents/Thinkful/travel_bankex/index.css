@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  }
+
+  html, body {
+    color: #404040;
+    background-color:#F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .heading {
+    position: absolute;
+    z-index: 2;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .travelex {
+    position: absolute;
+    left: 50%;
+    margin-left: -165px;
+    top: 350px;
+    z-index: 3;
+    width: 330px;
+    background-color: #D9D9D9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+    
+  .travelex legend {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .travelex label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .travelex input, .travelex select, .travelex button {
+    width: 100%;
+    padding: 6px;
+    height: 34px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 3px;
+  } 
+
+  .travelex button, .exchangeBlock button {
+    background-color: #1976D2;
+    color: #FFFFFF; 
+  }
+
+  .travelex button { 
+    margin-top: 10px;
+  }
+
+  .exchangeBlock input, .exchangeBlock button {
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+  }
+ 
+  button[type="submit"]:hover,
+  button[type="submit"]:focus {
+    background-color: #2196F3;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    outline: none;
+  }
+
+  .exchangeBlock {
+    border: 1px solid #0D0D0D;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    display: grid;
+    grid-template-rows: auto;
+    height: 100%;
+  }
+
+  .exchangeTable {
+    padding-left: 12px;
+    background-color: #E6E6E6;
+  }
+
+  .exchangeBlock legend {
+    padding-top: 20px;
+    padding-bottom: 15px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .oneHomeToTravel {
+    padding-left: 35px;
+    margin-top: 4px;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .date {
+    font-size: 14px;
+    display: inline-block
+  }
+
+  img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  ul {
+    margin-top: -0.5px;
+    border-top: 1px solid #0D0D0D;
+    overflow-y: scroll;
+    list-style: none;
+    padding-left: 0;
+    background-color: #D9D9D9;
+    margin-bottom: 0;
+  }
+
+  li {
+    padding: 12px;
+  }
+
+  li:nth-child(odd) {
+    background-color: #CCCCCC;
+  }
+
+  li:hover,
+  li:focus {
+    background-color: #F1F1F1;
+    cursor: pointer;
+  }
+  
+  
+  @media only screen and (min-width: 300px) {
+    .travelex {
+      top: 230px;
+    }
+
+    .exchangeBlock {
+      height: 600px;
+      width: 100%;
+      top: 500px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .travelex {
+      top: 275px;
+    }
+    
+    .exchangeBlock {
+      height: 100%;
+      width: 340px;
+      top: 0;
+    }
+  }
